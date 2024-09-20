@@ -1,8 +1,8 @@
 import React from 'react'
 import Logo from './Logo'
 import NavSearch from './NavSearch'
-import DarkMode from './DarkMode'
 import LinksDropdown from './LinksDropdown'
+import ModeToggle from './DarkMode'
 
 function Navbar() {
     return (
@@ -11,7 +11,7 @@ function Navbar() {
                 <Logo />
                 <NavSearch />
                 <div className='flex gap-4 items-center'>
-                    <DarkMode />
+                    <ModeToggle />
                     <LinksDropdown />
                 </div>
             </div>
